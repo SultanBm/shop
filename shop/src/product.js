@@ -13,14 +13,14 @@ let products = [
   },
 ];
 
-const productlist = products.map((product) => {
-  return (
-    <div>
-      <img class="pic" src={product.image}></img>
-      <h6 class="word">{product.name}</h6>
-      <h6 class="word">{product.price}</h6>
-    </div>
-  );
-});
+export default products;
 
-export default productlist;
+//const productlist = products.map((product) => {
+//   return (
+//     <div>
+//       <img class="pic" src={product.image}></img>
+//       <h6 class="word">{product.name}</h6>
+//       <h6 class="word">{product.price}</h6>
+//     </div>
+//   );
+// });

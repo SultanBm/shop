@@ -40,7 +40,7 @@
 .title{
   font-family: 'Yatra One', cursive;
 }
-.pic{
+.product-img{
   flex: 30%;
   padding: 5px;
   align-items: center;
@@ -51,22 +51,25 @@
   width: 200px;
   height: 200px;
 }
-.pic:hover{
+.product-img:hover{
   color: black;
   box-shadow: 10px 10px 10px 10px #090909;
   margin-top: 50px;
   border-radius: 10px;
   width: 200px;
   height: 200px;
-}
-.products{
 
-  display: flex;
-  justify-content: center;
-  align-content: center;
+
 }
+
 .word{
   padding: 3px;
   font-family: 'Yatra One', cursive;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  
 }

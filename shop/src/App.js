@@ -1,8 +1,13 @@
 import "./App.css";
-import componentlist from "./Home.js";
-
+import Home from "./components/Home.js";
+import ProductList from "./components/ProductList.js";
 function App() {
-  return <div>{componentlist}</div>;
+  return (
+    <>
+      <Home />
+      <ProductList />
+    </>
+  );
 }
 
 export default App;
